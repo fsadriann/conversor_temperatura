@@ -3,17 +3,17 @@ print("..... VALOR EN GRADOS CENTIGRADOS ......")
 print("........................................")
 
 #input
-k = int(input(" digite grados kelvin: "))
-f = int(input(" digite grados farenheit: "))
+
+c = int(input("Digite el valor de grados centigrados "))
 
 #processing
-f 
-k 
+f =(c+273.15)
+k =(c*1.8+32)
 
 #output
 print("...............................")
 print("......... RESULTADOS ..........")
 print("...............................")
 
-print("La suma de " + str(x) + " + " + str(y) + " es " + str(s))
-print("La resta de " + str(x) + " - " + str(y) + " es " + str(r))
+print("Resultado grados farenheit  " + str(f))
+print("Resultado grados kelvin " + str(k))
